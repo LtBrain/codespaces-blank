@@ -1,6 +1,14 @@
 {
+  "name": "search-proxy",
+  "version": "1.0.0",
+  "description": "A simple web application-based search proxy",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "npm install && npm run build" 
+  },
   "dependencies": {
-    "express": "^4.19.2",
-    "http-proxy-middleware": "^3.0.0"
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6" 
   }
 }
